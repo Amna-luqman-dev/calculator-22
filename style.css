@@ -1,0 +1,37 @@
+.display{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    
+    height: 50px;
+     border-radius: 2px solid black;
+     
+}
+.cal_display{
+    
+    display: grid;
+    border-radius: 2px solid black;
+      grid-template-columns: repeat(4, 80px);
+      grid-gap: 8px;
+      margin: 50px;
+
+}
+.cal_display input, button{
+    padding: 10px;
+    font-size: small;
+
+}
+.row-2-span{
+    background-color: rgb(216, 112, 166);
+    grid-row: 2 span;
+}
+.col-2-span{
+    grid-column: 2 span;
+}
+.cal_display input{
+    height: 50px;
+    font-size: small;
+    align-items: center;
+    grid-column: 4 span;
+    background-color: rgb(168, 199, 193);
+}
